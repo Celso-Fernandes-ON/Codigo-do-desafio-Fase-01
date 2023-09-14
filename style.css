@@ -1,57 +1,53 @@
-body {
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  margin: 0;
-  height: 100vh;
-  width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
 }
-
-#hero {
-  width: 592px;
-  margin: 0 auto 72px;
+body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
-
-#hero img {
-  margin-bottom:  72px;
+#hero{
+    width: 592px;
+    margin: 0 auto 72px;
 }
-
-h1 {
-  font-family: "Inter", sans-serif;
-  font-size: 49px;
-  line-height: 56px;
-  font-weight: normal;
-  margin-bottom: 32px;
+#hero img{
+    margin-bottom: 72px;
 }
-
-h1 span {
-  font-weight: bold;
+span, a{
+    color: #FF9900;
 }
-
-span, a {
-  color: #ff9900;
+main{
+    height: 579px;
+    border: 1px solid black;
+    display: block;
+    margin: 72px;
 }
-
-p, #footer {
-  color: #7d7987;
-  font-size: 14px;
-  line-height: 28px;
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 49px;
+    line-height: 56px;
+    margin-bottom: 32px;
 }
-
-#footer a + a {
-  margin-left: 28px;
+h1 span{
+    font-weight: bold;
 }
-
-.line {
-  width: 568px;
-  height: 0;
-
-  margin: 0 auto 8px;
-
-  border: 1px solid #ECEFF2;
+p, footer{
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
 }
-
-#balls {
-  position: fixed;
-  bottom: 0;
-  right: 0;
+footer a + a{
+    margin-left: 28px;
+}
+#line{
+    border: 1px #ECEFF2 solid;
+    height: 0;
+    width: 568px;
+    margin: 0 auto 8px;
+}
+#balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
